@@ -4,13 +4,13 @@ document.getElementById("submitBtn").onclick=function(){
     temp=document.getElementById("text").value;
     temp=Number(temp);
     temp=toCelsius(temp)
-    document.getElementById("mess").innerHTML=temp + "C";
+    document.getElementById("mess").innerHTML=temp + "\u00B0 C";
    }
    else if(document.getElementById("2").checked){
     temp=document.getElementById("text").value;
     temp=Number(temp);
     temp=toFahrenheit(temp)
-    document.getElementById("mess").innerHTML=temp + "F";
+    document.getElementById("mess").innerHTML=temp + "\u00B0 F";
    }
    else{
     document.getElementById("mess").innerHTML="enter the value";
